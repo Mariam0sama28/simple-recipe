@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  overflow-y: auto;
+  font-family: "Figtree", sans-serif;
+  padding: 2rem;
+}
+
+.maincard {
+  background-color: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 100%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+  height: auto;
+}
+
+.card-content {
+  padding: 2rem;
+}
+
+h1 {
+  color: hsl(24, 5%, 18%);
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  font-family: "Young Serif", serif;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Young Serif", serif;
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-top: 1rem;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.6;
+}
+
+ul,
+ol {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+li {
+  margin-bottom: 1rem;
+  color: hsl(30, 10%, 34%);
+}
+
+.prepration-card {
+  background-color: hsl(330, 100%, 98%);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.nutrition-table {
+  margin-top: 1rem;
+}
+
+.nutrition-row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+  color: hsl(30, 10%, 34%);
+}
